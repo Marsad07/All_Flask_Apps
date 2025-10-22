@@ -8,3 +8,4 @@ This is a foundational Flask web app built as part of my early exploration into 
 - Basic route handling (`/`, `/about`, etc.)
 - HTML templates using Jinja2
 - Static file support (CSS, images)
+ 
