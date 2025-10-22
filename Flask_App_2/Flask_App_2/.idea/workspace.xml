@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe99a084-d135-4ef0-bdf3-5e9998784b8f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Marsad07"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Marsad07/flask_apps.git",
+    "accountId": "4b615596-2ad2-4c83-befb-8bc54134e220"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="33hBlqSSl8kpXvZx95sTri7cMKE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.app.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b3d66beaba9a-c6efb3732140-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26199.168" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe99a084-d135-4ef0-bdf3-5e9998784b8f" name="Changes" comment="" />
+      <created>1759759577284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759759577284</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Step 1 in app - create the required python and html files">
+      <option name="closed" value="true" />
+      <created>1760363038639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760363038639</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Step 1 in app - inside app.py, i used an if statement for POST method to get number">
+      <option name="closed" value="true" />
+      <created>1760363419481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760363419481</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Step - 2 convert number into an integer using int(number)">
+      <option name="closed" value="true" />
+      <created>1760363449472</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760363449472</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Step 3 - use % to check if the number inputted is either odd or even">
+      <option name="closed" value="true" />
+      <created>1760363521472</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760363521472</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Step 4 - pass both the number and the result to results.hmtl">
+      <option name="closed" value="true" />
+      <created>1760363627706</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760363627706</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Step 4 - pass both the number and the result to results.hmtl">
+      <option name="closed" value="true" />
+      <created>1760363641329</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760363641329</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Step 4 - pass both the number and the result to results.hmtl">
+      <option name="closed" value="true" />
+      <created>1760363682063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760363682063</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Step 4.5 - pass both the number and the result to results.hmtl">
+      <option name="closed" value="true" />
+      <created>1760363730404</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760363730404</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Step 5 - In GET.html i add code that shows a check button for the user to click">
+      <option name="closed" value="true" />
+      <created>1760364208136</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760364208136</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Step 6 - In RESULTS.html, i add code that shows the result of their number and allows the user to add another new number">
+      <option name="closed" value="true" />
+      <created>1760364246382</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760364246382</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Step 1 in app - create the required python and html files" />
+    <MESSAGE value="Step 1 in app - inside app.py, i used an if statement for POST method to get number" />
+    <MESSAGE value="Step - 2 convert number into an integer using int(number)" />
+    <MESSAGE value="Step 3 - use % to check if the number inputted is either odd or even" />
+    <MESSAGE value="Step 4 - pass both the number and the result to results.hmtl" />
+    <MESSAGE value="Step 4.5 - pass both the number and the result to results.hmtl" />
+    <MESSAGE value="Step 5 - In GET.html i add code that shows a check button for the user to click" />
+    <MESSAGE value="Step 6 - In RESULTS.html, i add code that shows the result of their number and allows the user to add another new number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 6 - In RESULTS.html, i add code that shows the result of their number and allows the user to add another new number" />
+  </component>
+</project>
