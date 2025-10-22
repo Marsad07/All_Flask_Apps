@@ -1,11 +1,15 @@
-# Flask_App_1
+##  `Flask_App_2/README.md`
 
-This is a foundational Flask web app built as part of my early exploration into web development with Python. It focuses on understanding routing, templates, and basic HTML rendering.
+```markdown
+# Flask_App_2
+
+This project builds on the foundation of Flask_App_1 and introduces more modular logic and layout control. It was developed as part of a hands-on coding session focused on procedures, Booleans, and visual structure.
 
 ##  Features
 
-- Simple Flask setup with `app.py`
-- Basic route handling (`/`, `/about`, etc.)
-- HTML templates using Jinja2
-- Static file support (CSS, images) 
- 
+- Modular Flask app structure
+- Dynamic route logic with conditional rendering
+- Clean separation of logic and layout
+- Practice with Booleans and procedural thinking
+
+
