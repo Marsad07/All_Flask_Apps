@@ -7,5 +7,5 @@ This is a foundational Flask web app built as part of my early exploration into 
 - Simple Flask setup with `app.py`
 - Basic route handling (`/`, `/about`, etc.)
 - HTML templates using Jinja2
-- Static file support (CSS, images)
+- Static file support (CSS, images) 
  
