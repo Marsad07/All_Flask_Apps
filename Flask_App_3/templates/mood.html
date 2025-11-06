@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Dynamic title based on selected mood -->
+    <title>{{ mood }} Mood</title>
+
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Inline styling to apply background color and center content -->
+    <style>
+        body {
+            background-color: {{ color }}; /* Color passed from Flask based on mood */
+            text-align: center;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Display the selected mood as a heading -->
+    <h1>{{ mood }}</h1>
+
+    <!-- Display the mood description -->
+    <h3>{{ message }}</h3>
+
+    <!-- Link to return to the homepage -->
+    <a href="/">Back to Mood Selector</a>
+
+</body>
+</html>

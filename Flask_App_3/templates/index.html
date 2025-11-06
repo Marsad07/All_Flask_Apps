@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mood Selector App</title> <!-- Title shown in browser tab -->
+</head>
+<body>
+
+    <!-- Main heading centered on the page -->
+    <h1 style="text-align: center;">
+        Mood Selector App
+    </h1>
+
+    <!-- Subtitle explaining the app's purpose -->
+    <h3 style="text-align: center;">
+        Select a mood, and you will be shown a description about your mood.
+        Along with examples of your chosen mood being used.
+    </h3>
+
+    <!-- Form that sends the selected mood to the Flask backend -->
+    <form action="/mood" method="post" style="text-align: center;">
+        <!-- Label for the dropdown menu -->
+        <label for="moods">Choose a Mood Below</label><br><br>
+
+        <!-- Dropdown menu with mood options -->
+        <select name="moods" id="moods">
+            <option value="Sad">Sad</option>
+            <option value="Happy">Happy</option>
+            <option value="Annoyed">Annoyed</option>
+            <option value="Tired">Tired</option>
+        </select><br><br>
+
+        <!-- Submit button to send the selected mood -->
+        <button type="submit">Show Mood</button>
+    </form>
+
+</body>
+</html>

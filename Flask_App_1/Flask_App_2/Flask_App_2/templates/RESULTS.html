@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Result</title></head>
+<body>
+  <h1>{{ number }} is {{ result }}</h1>
+
+  {% if result == "EVEN" %}
+    <div style="color: green;">✅ Your number is Even!</div>
+  {% else %}
+    <div style="color: red;">🔴 Your number is Odd!</div>
+  {% endif %}
+
+  <a href="/">Try another number</a>
+</body>
+</html>
