@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+#grid {
+    display: grid;
+    grid-template-columns: repeat(16, 20px);
+    grid-template-rows: repeat(16, 20px);
+    gap: 2px;
+    margin-top: 20px;
+}
+
+.pixel {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+</style>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Playground</title>
+</head>
+<body>
+    <h1> 🎨 Pixel Playground</h1>
+    <div id="grid"></div>
+
+<div id="palette">
+    <button onclick="setColor('red')">Red</button>
+    <button onclick="setColor('blue')">Blue</button>
+    <button onclick="setColor('green')">Green</button>
+    <button onclick="setColor('yellow')">Yellow</button>
+    <button onclick="setColor('orange')">Orange</button>
+    <button onclick="setColor('pink')">Pink</button>
+
+    <button onclick="resetGrid()">Reset</button>
+</div>
+
+<script>
+    let currentColor = "blue";
+
+    function setColor(color) {
+        currentColor = color;
+    }
+
+    window.onload = function() {
+        const grid = document.getElementById("grid");
+        for (let i = 0; i < 256; i++) {
+            const pixel = document.createElement("div");
+            pixel.className = "pixel";
+            pixel.addEventListener("click", () => {
+                pixel.style.backgroundColor = currentColor;
+            });
+            grid.appendChild(pixel);
+        }
+    };
+
+    function resetGrid() {
+        document.querySelectorAll(".pixel").forEach(pixel => {
+            pixel.style.backgroundColor = "white";
+        });
+    }
+</script>
+
+</body>
+</html>
